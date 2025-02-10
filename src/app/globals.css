@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer components {
+  .li {
+    @apply w-max ml-8 text-xl font-normal py-4
+  }
+
+  .dot {
+    list-style-type: inherit;
+    list-style-position: inside;
+  }
+}
