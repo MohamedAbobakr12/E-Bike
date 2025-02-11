@@ -15,15 +15,16 @@ const Footer = () => {
     return (
         <footer className="bg-BG md:bg-black h-max">
             <div className="max-w-screen-lg w-full h-full mx-auto">
-                <div className="grid grid-cols-3 max-md:grid-cols-2 justify-items-center max-md:mx-4 mb-12">
-                    <div className="flex flex-col mt-12">
+                <div className="grid grid-cols-3 max-md:grid-cols-2 max-md:gap-x-12 justify-items-center mb-12">
+                    <div className="flex flex-col mt-12 max-md:ml-8">
                         <Image 
                             width={75} 
                             height={75} 
                             src={"/footer.png"} 
-                            alt={"logo image"}
+                            alt={"logo image"} 
+                            className="max-md:ml-10"
                         />
-                        <ul className="flex flex-col gap-y-5 max-md:gap-y-3 mt-8">
+                        <ul className="flex flex-col gap-y-5 max-md:gap-y-3 mt-8 max-md:ml-6">
                             <li className="flex items-center gap-x-5">
                                 <figure className="flex justify-center w-12 h-12 bg-BG object-none rounded-full"><Image width={25} height={15} src={"/location.svg"} alt={"location icon"} /></figure>
                                 <p className="text-sm text-gray-100">23 Revelation Street<br /><span className="font-semibold"> Paris France.</span></p>
@@ -39,7 +40,7 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    <div className="flex flex-col w-max mt-24">
+                    <div className="flex flex-col w-max mt-24 max-md:ml-6">
                         <h1 className="text-sm font-semibold text-white">Company</h1>
                         <ol className="flex flex-col text-white text-sm dot gap-y-4 mt-4">
                             <li className="hover:text-brand-600 transition-all w-max duration-300"><Link href={"#"}>About Us</Link></li>
