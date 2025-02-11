@@ -51,7 +51,7 @@ const Footer = () => {
                         </ol>
                     </div>
 
-                    <hr className="md:hidden col-span-2 border border-gray-900 w-full mt-6" />
+                    <hr className="md:hidden col-span-2 border border-gray-900 w-[80%] mt-6" />
 
                     <div className="flex max-md:items-center flex-col max-md:col-span-2 mt-24 max-md:mt-8">
                         <h1 className="text-sm max-md:text-center font-semibold text-gray-100">About The Company</h1>
