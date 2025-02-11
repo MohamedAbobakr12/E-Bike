@@ -25,10 +25,10 @@ const Categories = () => {
                                 className="z-10"
                             />
                         </div>
-                        <Link href={"#"} className="-mt-4 mb-4 mx-auto"><span className="text-xl font-semibold bg-brand-600 hover:bg-white text-white hover:text-brand-600 rounded-md border-2 hover:border hover:border-brand-600 transition-all duration-300 px-16 py-4">Discover More</span></Link>
+                        <Link href={"#"} className="-mt-4 mx-auto"><span className="text-xl font-semibold bg-brand-600 hover:bg-white text-white hover:text-brand-600 rounded-md border-2 hover:border hover:border-brand-600 transition-all duration-300 px-16 py-4">Discover More</span></Link>
                     </div>
 
-                    <div className="flex flex-col gap-y-5 w-[33rem] max-xl:w-[30rem] max-md:w-[26rem] h-max">
+                    <div className="flex flex-col gap-y-5 w-[33rem] max-xl:w-[30rem] max-md:w-[25rem] h-max">
                         <div className="flex justify-around border-2 border-white rounded-md h-[50%] bg-white w-full">
                             <div className="flex flex-col max-md:ml-4 mt-8 max-md:mt-5 w-[50%] h-max">
                                 <h1 className="text-xl text-center font-semibold">ACCESSOORIES</h1>
@@ -41,7 +41,7 @@ const Categories = () => {
                                     height={200} 
                                     src={"/chainstay.png"} 
                                     alt={"chainstay image"} 
-                                    className="rounded-e-md max-md:w-[80%] max-md:h-[100%]"
+                                    className="rounded-e-md max-md:w-[85%] max-md:h-[100%]"
                                 />
                             </div>
                         </div>
@@ -57,7 +57,7 @@ const Categories = () => {
                                     height={200} 
                                     src={"/chainstay.png"} 
                                     alt={"chainstay image"} 
-                                    className="rounded-e-md max-md:w-[80%] max-md:h-[100%]"
+                                    className="rounded-e-md max-md:w-[85%] max-md:h-[100%]"
                                 />
                             </div>
                         </div>
