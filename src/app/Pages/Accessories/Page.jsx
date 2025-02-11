@@ -48,7 +48,7 @@ const Accessories = () => {
             <div className="w-max h-full mx-auto">
                 <div className="flex flex-col items-center mt-28">
                     <h4 className="text-lg text-center font-medium md:tracking-[0.3rem] text-brand-500">PARTS & ACCESSORIES</h4>
-                    <h1 className="text-4xl text-center font-semibold max-md:font-medium text-gray-950 mt-3">Shop Gear & Accessories</h1>
+                    <h1 className="text-4xl max-md:text-3xl text-center font-semibold max-md:font-medium text-gray-950 mt-3">Shop Gear & Accessories</h1>
                     <p className="text-lg text-center text-gray-900 w-[54rem] max-xl:w-[45rem] max-lg:w-[40rem] max-md:w-[24rem] mt-4">Load up and head out. Explore the route less travelled or accelerate your daily routine with one of these rugged&#44; versatile e-bikes.</p>
                 </div>
 
