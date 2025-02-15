@@ -25,16 +25,16 @@ const Footer = () => {
                             className="max-md:ml-10"
                         />
                         <ul className="flex flex-col gap-y-5 max-md:gap-y-3 mt-8 max-md:ml-6">
-                            <li className="flex items-center gap-x-5">
-                                <figure className="flex justify-center w-12 h-12 bg-BG object-none rounded-full"><Image width={25} height={15} src={"/location.svg"} alt={"location icon"} /></figure>
+                            <li className="flex items-center gap-x-5 max-md:gap-x-2">
+                                <figure className="flex justify-center w-12 max-xs:w-10 h-12 max-xs:h-10 bg-BG object-none rounded-full"><Image width={25} height={15} src={"/location.svg"} alt={"location icon"} className="max-xs:w-[55%]" /></figure>
                                 <p className="text-sm text-gray-100">23 Revelation Street<br /><span className="font-semibold"> Paris France.</span></p>
                             </li>
-                            <li className="flex items-center gap-x-5">
-                                <figure className="flex justify-center w-12 h-12 bg-BG object-none rounded-full"><Image width={25} height={15} src={"/call.svg"} alt={"call icon"} /></figure>
+                            <li className="flex items-center gap-x-5 max-md:gap-x-2">
+                                <figure className="flex justify-center w-12 max-xs:w-10 h-12 max-xs:h-10 bg-BG object-none rounded-full"><Image width={25} height={15} src={"/call.svg"} alt={"call icon"} className="max-xs:w-[55%]" /></figure>
                                 <p className="text-sm text-gray-100">+1630548590375</p>
                             </li>
-                            <li className="flex items-center gap-x-5">
-                                <figure className="flex justify-center w-12 h-12 bg-BG object-none rounded-full"><Image width={25} height={15} src={"/message.svg"} alt={"message icon"} /></figure>
+                            <li className="flex items-center gap-x-5 max-md:gap-x-2">
+                                <figure className="flex justify-center w-12 max-xs:w-10 h-12 max-xs:h-10 bg-BG object-none rounded-full"><Image width={25} height={15} src={"/message.svg"} alt={"message icon"} className="max-xs:w-[55%]" /></figure>
                                 <p className="text-sm text-brand-600 font-semibold">ashimroy@Gmail.com</p>
                             </li>
                         </ul>
@@ -42,7 +42,7 @@ const Footer = () => {
 
                     <div className="flex flex-col w-max mt-24 max-md:ml-6">
                         <h1 className="text-sm font-semibold text-white">Company</h1>
-                        <ol className="flex flex-col text-white text-sm dot gap-y-4 mt-4">
+                        <ol className="flex flex-col text-white text-sm dot gap-y-4 mt-4 max-xs:mt-3">
                             <li className="hover:text-brand-600 transition-all w-max duration-300"><Link href={"#"}>About Us</Link></li>
                             <li className="hover:text-brand-600 transition-all w-max duration-300 max-md:hidden"><Link href={"#"}>Our Bikes</Link></li>
                             <li className="hover:text-brand-600 transition-all w-max duration-300"><Link href={"#"}>Our Services</Link></li>
