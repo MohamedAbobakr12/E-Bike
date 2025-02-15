@@ -48,13 +48,13 @@ const Accessories = () => {
             <div className="w-max h-full mx-auto">
                 <div className="flex flex-col items-center mt-28">
                     <h4 className="text-lg text-center font-medium md:tracking-[0.3rem] text-brand-500">PARTS & ACCESSORIES</h4>
-                    <h1 className="text-4xl max-md:text-3xl text-center font-semibold max-md:font-medium text-gray-950 mt-3">Shop Gear & Accessories</h1>
-                    <p className="text-lg text-center text-gray-900 w-[54rem] max-xl:w-[45rem] max-lg:w-[40rem] max-md:w-[24rem] mt-4">Load up and head out. Explore the route less travelled or accelerate your daily routine with one of these rugged&#44; versatile e-bikes.</p>
+                    <h1 className="text-4xl max-md:text-3xl max-xs:text-2xl text-center font-semibold max-md:font-medium text-gray-950 mt-3">Shop Gear & Accessories</h1>
+                    <p className="text-lg text-center text-gray-900 w-[54rem] max-xl:w-[45rem] max-lg:w-[40rem] max-md:w-[24rem] max-xs:w-[21rem] mt-4">Load up and head out. Explore the route less travelled or accelerate your daily routine with one of these rugged&#44; versatile e-bikes.</p>
                 </div>
 
-                <div className="grid grid-cols-4 max-xl:grid-cols-3  max-lg:grid-cols-2 max-md:grid-cols-1 gap-7 max-xl:w-max h-max mt-36 max-xl:mt-32 max-lg:mt-24 max-md:mt-16 max-xl:mx-auto">
+                <div className="grid grid-cols-4 max-xl:grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-7 max-xl:w-max h-max mt-36 max-xl:mt-32 max-lg:mt-24 max-md:mt-16 max-xl:mx-auto">
                     {accessories.slice(0, visibleAccessories).map(({ key, url })=> (
-                        <div key={key} className="flex flex-col justify-center items-start w-[18rem] max-md:w-[25rem] h-[28rem] max-md:h-max rounded-xl cursor-pointer hover:shadow-xl hover:shadow-brand-300 hover:scale-[1.05] transition-all duration-300">
+                        <div key={key} className="flex flex-col justify-center items-start w-[18rem] max-md:w-[25rem] max-xs:w-[20rem] h-[28rem] border-2 border-black max-md:h-max rounded-xl cursor-pointer hover:shadow-xl hover:shadow-brand-300 hover:scale-[1.05] transition-all duration-300">
                             <Image 
                                 width={350} 
                                 height={150} 
@@ -77,7 +77,7 @@ const Accessories = () => {
                                         </li>
                                 </ul>
                             </div>
-                            <button className="text-lg text-center font-medium self-center text-brand-600 hover:text-white hover:bg-brand-600 border-2 border-brand-600 hover:border-brand-300 hover:shadow-lg hover:shadow-brand-600 transition-all duration-300 rounded-lg px-24 max-md:px-32 py-3 mt-5 mb-10">Buy Now</button>
+                            <button className="text-lg text-center font-medium self-center text-brand-600 hover:text-white hover:bg-brand-600 border-2 border-brand-600 hover:border-brand-300 hover:shadow-lg hover:shadow-brand-600 transition-all duration-300 rounded-lg px-24 max-md:px-32 max-xs:px-28 py-3 mt-5 mb-10">Buy Now</button>
                         </div>
                     ))}
                 </div>
