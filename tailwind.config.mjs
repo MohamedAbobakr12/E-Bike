@@ -40,6 +40,14 @@ export default {
         outer: "0px -3px 30px rgba(238, 60, 8, 0.4)",
       },
     },
+    screens: {
+      xs: '375px',
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px'
+    }
   },
   plugins: [],
 };
