@@ -45,12 +45,12 @@ const Products = () => {
                 <div className="flex flex-col w-max h-max mx-auto mt-16">
                     <p className="text-lg text-center text-brand-500 md:tracking-[0.4rem]">OUR PRODUCTS</p>
                     <h1 className="text-4xl text-center text-white font-semibold max-md:font-normal mt-4 max-md:mt-5">Featured Products</h1>
-                    <p className="text-lg text-center text-gray-50 w-[55rem] max-xl:w-[45rem] max-lg:w-[35rem] max-md:w-[24.5rem] mt-2 max-md:mt-6">Ultra-premium components, engineered by Probike. The ultimate upgrade. Wherever you ride, we’ve got a bike for the joyrider in you</p>
+                    <p className="text-lg text-center text-gray-50 w-[55rem] max-xl:w-[45rem] max-lg:w-[35rem] max-md:w-[24.5rem] max-xs:w-[22rem] mt-2 max-md:mt-6">Ultra-premium components, engineered by Probike. The ultimate upgrade. Wherever you ride, we’ve got a bike for the joyrider in you</p>
                 </div>
                 <div className="grid grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-x-8 max-xl:gap-x-6 max-lg:gap-x-10 gap-y-10 max-xl:gap-y-8 max-lg:gap-y-10 max-md:gap-y-6 max-w-max mt-20 h-max mx-auto">
                     {products.slice(0, visibleProducts).map(({ key, url }) => (
-                        <div key={key} className="bg-gray-50 w-[22rem] max-xl:w-[20rem] max-md:w-[23rem] h-max rounded-lg cursor-pointer">
-                            <div className="flex flex-col items-center w-[full] h-[55%] bg-BG rounded-t-md">
+                        <div key={key} className="bg-gray-50 w-[22rem] max-xl:w-[20rem] max-md:w-[23rem] max-xs:w-[21rem] h-max rounded-lg cursor-pointer">
+                            <div className="flex flex-col items-center w-full h-[55%] bg-BG rounded-t-md">
                                 <Image 
                                     width={300} 
                                     height={200} 
@@ -66,7 +66,7 @@ const Products = () => {
                                         <p className="text-white">E-BIKE</p>
                                     </div>
                                 </div>
-                                <div className="flex max-md:justify-center gap-x-6 mt-4 mb-10 mx-2">
+                                <div className="flex max-md:justify-center gap-x-6 max-xs:gap-x-4 mt-4 mb-10 mx-2">
                                     <ul className="flex flex-col gap-y-2 text-sm text-gray-950">
                                         <li><span className="font-medium">Brand:</span> Mondrake</li>
                                         <li><span className="font-medium">Material:</span> Steel</li>
