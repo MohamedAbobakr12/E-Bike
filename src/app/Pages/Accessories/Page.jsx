@@ -54,7 +54,7 @@ const Accessories = () => {
 
                 <div className="grid grid-cols-4 max-xl:grid-cols-3 max-lg:grid-cols-2 max-md:grid-cols-1 gap-7 max-xl:w-max h-max mt-36 max-xl:mt-32 max-lg:mt-24 max-md:mt-16 max-xl:mx-auto">
                     {accessories.slice(0, visibleAccessories).map(({ key, url })=> (
-                        <div key={key} className="flex flex-col justify-center items-start w-[18rem] max-md:w-[25rem] max-xs:w-[20rem] h-[28rem] border-2 border-black max-md:h-max rounded-xl cursor-pointer hover:shadow-xl hover:shadow-brand-300 hover:scale-[1.05] transition-all duration-300">
+                        <div key={key} className="flex flex-col justify-center items-start w-[18rem] max-md:w-[25rem] max-xs:w-[20rem] h-[28rem] max-md:h-max rounded-xl cursor-pointer hover:shadow-xl hover:shadow-brand-300 hover:scale-[1.05] transition-all duration-300">
                             <Image 
                                 width={350} 
                                 height={150} 
