@@ -29,8 +29,8 @@ const BestSeller = () => {
                             <div className="w-full h-full bg-BG rounded-lg max-md:mx-auto">
                                 <div className="flex max-md:grid">
                                     <div className="flex flex-col gap-y-6 mx-4 max-md:mx-auto pt-32 max-md:pt-8 max-md:w-max h-max">
-                                        <h1 className="text-4xl max-md:text-3xl font-bold text-brand-200">Super Deluxe <br /> Tandem 7i</h1>
-                                        <p className="text-white w-60 max-md:w-[21rem]">Lightweight 16-inch steel frame is the perfect bike for rides around your neighborhood or trails.</p>
+                                        <h1 className="text-4xl max-md:text-3xl max-xs:text-center font-bold text-brand-200">Super Deluxe <br /> Tandem 7i</h1>
+                                        <p className="text-white w-60 max-md:w-[21rem] max-xs:w-[18rem] max-xs:text-center">Lightweight 16-inch steel frame is the perfect bike for rides around your neighborhood or trails.</p>
                                     </div>
                                     <div className="flex flex-col h-max pt-16 max-md:pt-8 max-md:-order-1">
                                         <Image 
@@ -47,7 +47,7 @@ const BestSeller = () => {
                                     <div className="flex flex-col max-md:w-full my-6">
                                         <button className="text-lg font-medium w-max max-md:w-full h-max bg-brand-600 hover:bg-gray-50 text-gray-50 hover:text-brand-600 border border-gray-100 hover:border-brand-600 translation-all duration-300 rounded-lg my-8 px-12 py-3">Show More</button>
                                     </div>
-                                    <div className="flex justify-center items-center gap-x-24 max-xl:gap-x-10 max-md:gap-x-14 max-md:-order-1 max-lg:mb-8">
+                                    <div className="flex justify-center items-center gap-x-24 max-xl:gap-x-10 max-md:gap-x-14 max-xs:gap-x-8 max-md:-order-1 max-lg:mb-8">
                                         <ul className="flex text-gray-50 flex-col">
                                             <li className="text-lg w-max">Fork Travel</li>
                                             <li className="text-lg font-extrabold">205MM</li>
